@@ -1,0 +1,49 @@
+.mb-20px {
+  margin-bottom: 20px;
+}
+.mb-50px {
+  margin-bottom: 50px;
+}
+.mt-20px {
+  margin-top: 20px;
+}
+.mb-30px {
+  margin-bottom: 30px;
+}
+.p-20px {
+  padding: 20px;
+}
+.p-1-10px {
+  padding: 1px 10px 1px 10px;
+}
+.borders {
+  border: 1px solid rgb(221, 221, 221);
+  margin-top: 35px;
+  margin-bottom: 25px;
+  box-shadow: 1px 1px 1px 1px rgb(218, 217, 217);
+}
+/* label focus color */
+.input-field input[type='text']:focus + label,
+.input-field input[type='number']:focus + label,
+.input-field input[type='password']:focus + label {
+  color: #1a237e !important;
+}
+/* label underline focus color */
+.input-field input[type='text']:focus,
+.input-field input[type='number']:focus,
+.input-field input[type='password']:focus {
+  border-bottom: 1px solid #1a237e !important;
+  box-shadow: 0 1px 0 0 #1a237e !important;
+}
+.input-field .prefix.active {
+  color: #1a237e !important;
+}
+[type='radio']:checked + span:after,
+[type='radio']:checked + span:after {
+  background-color: #1a237e !important;
+}
+[type='radio']:checked + span:after,
+[type='radio'].with-gap:checked + span:before,
+[type='radio'].with-gap:checked + span:after {
+  border: 2px solid #1a237a;
+}
